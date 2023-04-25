@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(0, 76, 95);
+    margin: 0px;
+}
+
+.container {
+    
+    background-color: rgb(23, 140, 148);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+}
+
+h1 {
+    color: rgb(236, 239, 241);
+}
+
+.corpoSite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pagina1 {
+    width: 80%;
+    height: 950px;
+    margin-top: 100px;
+    margin-left: 200px;
+    background-image: url(img/imgLogin.jpg);
+    background-repeat: no-repeat;
+   
+}
+
+.telaLogin {
+    margin-left: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 20px;
+    width: 30%;
+    height: 650px;
+    margin-top: 2%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: rgba(5, 193, 253, 0.32);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.9px);
+    -webkit-backdrop-filter: blur(1.9px);
+    border: 1px solid rgba(5, 193, 253, 0.3);
+}
+
+button {
+    background-color: rgb(13, 13, 117);
+    transition: 0.5s;
+    opacity: 0.7;
+    color: white;
+
+}
+    
